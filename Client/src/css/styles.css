@@ -1,0 +1,187 @@
+   /*-------------------------------------
+   Layout
+   -------------------------------------- */
+.reactdiv{
+  margin-top: 80px;
+}
+
+
+
+
+
+footer{
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 40px 40px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+ul.list{
+  list-style: none;
+  padding: 0px;
+}
+#page-title{
+  margin-top: 100px;
+  background: #F5F5F5;
+  padding: 15px;
+}
+#page-title,#page-title .container{
+  position: relative;
+  display: block;
+  }
+.breadcrumb {
+      position: absolute;
+      top: 50%;
+      left: auto;
+      right: 15px;
+      margin: -10px 0 0;
+      background-color: transparent;
+      padding: 0!;
+      font-size: 12px;
+  }
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #image{
+     padding-top: 0px;
+     padding-bottom: 0px;
+     padding-left: 0px;
+     padding-right: 0px;
+   }
+   #search{
+     width:150px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel .carousel-inner{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#mycarousel .item{
+  height:400px;
+}
+#slide1{
+  background: url(../../images/slide1.jpg);
+}
+#slide2{
+  background: url(../../images/slide2.jpg);
+}
+#slide3{
+  background: url(../../images/slide3.jpg);
+}
+
+  .jumbotron .container h1,.jumbotron .container p{
+    color: blue;
+    font-family: 'Baloo Paaji';
+  }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+body{
+  font-family: sans-serif;
+  width: auto;
+}
+}
+#bigcallout{
+  margin-top:0px;
+}
+.well .page-header{
+  margin-top: 0px;
+}
+.well .page-header h1{
+  margin-top: 0px;
+}
+.alert{
+  display: none;
+  margin-top: 5px;
+}
+.tabbable img.thumbnail{
+  margin: 0 20px 10px 0;
+}
+/*#slide4{
+  background: url(../../images/col1_img.jpg);
+}*/
+
+.pannel p{
+  text-align: justify;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  #mycarousel .item{
+    height:px;
+  }
+  #slide1{
+    background: url(../../images/slide1_3.jpg);
+  }
+  #slide2{
+    background: url(../../images/slide2_3.jpg);
+  }
+  #slide3{
+    background: url(../../images/slide3_3.jpg);
+  }
+
+  #page-title .container,#page-title .container ol{
+    position: relativ;
+   top:0px;
+   left: 0px;
+   right: 0px;
+   margin: 15px 0px;
+    text-align: center;
+    }
+    #page-title .container ol{
+      padding-top:90px;
+    }
+    .pannel img{
+      width:330px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #mycarousel .item{
+    height:300px;
+  }
+  #slide1{
+    background: url(../../images/slide1_2.jpg);
+  }
+  #slide2{
+    background: url(../../images/slide2_2.jpg);
+  }
+  #slide3{
+    background: url(../../images/slide3_2.jpg);
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #mycarousel .item{
+    height:500px;
+  }
+  #slide1{
+    background: url(../../images/slide1_1.jpg);
+  }
+  #slide2{
+    background: url(../../images/slide2_1.jpg);
+  }
+  #slide3{
+    background: url(../../images/slide3_1.jpg);
+  }
+
+.pannel img{
+  width:370px;
+}
